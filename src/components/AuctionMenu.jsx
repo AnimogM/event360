@@ -10,12 +10,12 @@ import {Link} from 'react-router-dom'
 
 import Logo from "../images/logo360.svg";
 
-const NavMenu = () => {
+const AuctionMenu = () => {
 	return (
 		<>
 			<Navbar bg="white" expand="lg">
 				<Container>
-					<Link to="/" className="py-2">
+					<Link to="/" className="py-1">
 						<img width={200} src={Logo} alt="Event 360" />
 					</Link>
 
@@ -41,7 +41,7 @@ const NavMenu = () => {
 								Create Event
 							</Link>
 							<Link to="/service">Services</Link>
-							<Link to="/aution-house">Aution House</Link>
+							<Link to="/aution-house">Help Center</Link>
 							<Link to="/login">Login</Link>
 							<Link to="/signup">Signup</Link>
 						</Nav>
@@ -52,4 +52,4 @@ const NavMenu = () => {
 	);
 };
 
-export default NavMenu;
+export default AuctionMenu;
