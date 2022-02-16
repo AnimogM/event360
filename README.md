@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-### live link - [event360](https://weather-appps.netlify.app/)
+### live link - [event360](https://events360.netlify.app/)
 
 ## Available Scripts
 
